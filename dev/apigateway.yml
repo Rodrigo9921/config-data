@@ -4,7 +4,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: blacklist
+        - id: black-list
           uri: lb://black-list
           predicates:
             - Path=/api/black-list/**
