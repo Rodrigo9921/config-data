@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: micro-ms-transaccions
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: transactions_db
+
+logging:
+  level:
+    org.springframework.data.mongodb: DEBUG
+
+ms-client:
+  url: http://localhost:8080/clients
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
