@@ -6,8 +6,7 @@ spring:
       host: localhost
       port: 27017
       database: pybankdb
-      username: admin
-      password: password
+
 
 logging:
   level:
