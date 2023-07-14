@@ -3,9 +3,8 @@ spring:
     name: micro-ms-reports
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: pybankdb
+      uri: mongodb+srv://momocho20:TVDQKq0W557m8Abn@cluster0.drv6iww.mongodb.net/pybankdb?authSource=pybankdb&authMechanism=SCRAM-SHA-1
+
 
 logging:
   level:
